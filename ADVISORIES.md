@@ -1,3 +1,7 @@
+<p align="center">
+<img src="./assets/advisories.png" alt="Advisories" width="500"/>
+</p>
+
 # Advisories
 
 This is a list of all ASA advisories issued by the `/security` to date:
