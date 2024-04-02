@@ -26,4 +26,6 @@ You may have run across one of our advisories while working in the Interchain St
 
 If you want to be notified of future advisories as they are released, please sign up [here](https://interchaincirt.org/signup).
 
+Our team will also post public resources about security topics in the [resources](./resources) folder.
+
 For information about our current signing identities and validating artifacts, please see [SIGNING_IDENTITIES.md](./SIGNING_IDENTITIES.md).
