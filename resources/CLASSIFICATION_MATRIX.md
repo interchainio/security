@@ -64,7 +64,7 @@ Examine the potential ripple effects of the vulnerability on interconnected syst
 
 ### Patch Availability and Remediation Effort
 
-Consider the availability of patches or mitigations to address the vulnerability. If limiting the availability of a patch is required to limit impact, consider the effect on chains unable to patch and consider the tradeoffs.  Additionally, the impact may be substantially more significant depending on the difficulty or complexity of patching this issue. Assess the effort and time required to remediate the issue effectively.
+Consider the availability of patches or mitigations to address the vulnerability. If limiting the availability of a patch is required to limit impact, consider the effect on chains unable to patch and consider the tradeoffs. Additionally, the impact may be substantially more significant depending on the difficulty or complexity of patching this issue. Assess the effort and time required to remediate the issue effectively.
 
 ### Threat Landscape
 
@@ -76,6 +76,15 @@ Vesting and locking mechanisms can affect the token supply and circulation. Lock
 
 ### Mitigation mechanisms
 
-Investing in mechanisms, including a circuit breaker for specific APIs, may reduce the impact of vulnerabilities to all chains.  This type of feature is immensely beneficial for systemic risk reduction. Does a mechanism exist today that chains know how to use that could mitigate this risk efficiently?
+Investing in mechanisms, including a circuit breaker for specific APIs, may reduce the impact of vulnerabilities to all chains. This type of feature is immensely beneficial for systemic risk reduction. Does a mechanism exist today that chains know how to use that could mitigate this risk efficiently?
+
+## Examples
+
+The below examples are rough estimations of general buckets some bugs can fall into.
+
+- Critical bugs have a likely and catastrophic impact, which have cross-chain impact, and can include direct loss of funds, minting of arbitrary assets, trivial bypass of essential security function, etc.
+- High bugs have a possible likelihood and critical impact, which have cross-chain impact, and can include a trivial denial of service resulting in a chain halt, indirect loss of funds, consensus issues, etc.
+- Medium bugs have a possible likelihood and moderate impact, and affect specific chains using a module or feature, and can include application logic issues, accounting errors, etc.
+- Low bugs have a possible likelihood, and marginal impact, and affects specific chains using a module or feature, and can include denial of service issues, application logic issues, error validation, etc.
 
 [Security Classification Matrix](https://github.com/interchainio/security/blob/main/resources/CLASSIFICATION_MATRIX.md) © 2023 by Amulet is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1)
