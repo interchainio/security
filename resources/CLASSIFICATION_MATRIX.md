@@ -1,6 +1,6 @@
 # Interchain Stack Severity Classification Framework
 
-**Version**: ACMv1.1
+**Version**: ACMv1.2
 
 ## Criticality Matrix
 
@@ -93,7 +93,7 @@ Investing in mechanisms, including a circuit breaker for specific APIs, may redu
 
 - High
 
-  - Possible likelihood, Critical impact
+  - Possible likelihood, Considerable impact
   - Somewhat cross-chain impact, with consequences that are difficult to recover from and likely to require state modification. These consequences could include non-determinism that results in a trivial chain halt or bugs that undermine the economic model of the Interchain Stack.
   - Examples include:
     - [Pigeonfall](https://github.com/cosmos/ibc-apps/security/advisories/GHSA-q7m9-jcqg-g9pq): Packet Forward Middleware
@@ -135,5 +135,9 @@ If you are building on the Interchain Stack and want to ensure that your team is
 If you are interested in receiving security advisories about vulnerabilities discovered in the Interchain Stack, sign up for the security email distribution list [here](https://interchaincirt.org/signup).
 
 If you are a chain operator and you want to verify if Emergency Security Coordination for an Interchain Stack component is taking place, please reach out to our official channel by emailing [security@interchain.io](mailto:security@interchain.io). Though our team cannot make public announcements about private security coordination activities, we can privately confirm if any emergency coordination is actively taking place.
+
+### Changelog
+
+- ACMv1.2: Change "Critical" imapct to "Considerable" to avoid confusion with Severity rating. The impact captured before and after this change is the same.
 
 [Security Classification Matrix](https://github.com/interchainio/security/blob/main/resources/CLASSIFICATION_MATRIX.md) © 2024 by Amulet is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1)
