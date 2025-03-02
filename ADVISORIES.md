@@ -25,3 +25,5 @@ This is a list of all ASA advisories issued by the `/security` to date:
 |[ASA-2024-013](https://github.com/cosmos/cosmos-sdk/security/advisories/GHSA-8wcc-m6j2-qxvm) | Cosmos SDK | High|ASA-2024-0012, ASA-2024-0013: CosmosSDK: Transaction decoding may result in a stack overflow or resource exhaustion|
 |[ASA-2025-001](https://github.com/cometbft/cometbft/security/advisories/GHSA-22qq-3xwm-r5x4) | CometBFT | Medium|Malicious peer can disrupt node's ability to sync via blocksync|
 |[ASA-2025-002](https://github.com/cometbft/cometbft/security/advisories/GHSA-r3r4-g7hq-pq4f) | CometBFT | High|Malicious peer can stall network by disseminating seemingly valid block parts|
+|[ASA-2025-003](https://github.com/cosmos/cosmos-sdk/security/advisories/GHSA-x5vx-95h7-rv4p) | Cosmos SDK | High|Group module can halt chain when handling a malicious proposal|
+|[ASA-2025-004](https://github.com/cosmos/ibc-go/security/advisories/GHSA-jg6f-48ff-5xrw) | IBC-Go | Critical|Chain Halt via Non-deterministic deserialization|
