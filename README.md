@@ -2,7 +2,7 @@
 
 ![slash security](./assets/slash_security.png)
 
-This repository houses references, artifacts, and deliverables from, `/security` (slash security), operated by Amulet. The [Interchain Foundation engaged Amulet](https://medium.com/the-interchain-foundation/amulet-strengthening-security-across-the-interchain-fa4b0bafadb4) to administer the Cosmos Bug Bounty program and engage in Security Coordination and Incident Response efforts for the Interchain Stack.
+This repository houses references, artifacts, and deliverables from, `/security` (slash security).
 
 ## Programs
 
@@ -23,8 +23,6 @@ Additionally, the @security alias at [security@interchain.io](mailto:security@in
 ### Security Outreach
 
 You may have run across one of our advisories while working in the Interchain Stack. To see a complete list of all public advisories, see [ADVISORIES.md](ADVISORIES.md).
-
-If you want to be notified of future advisories as they are released, please sign up [here](https://interchaincirt.org/signup).
 
 Our team will also post public resources about security topics in the [resources](./resources) folder.
 
